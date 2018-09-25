@@ -88,6 +88,7 @@ var (
 var (
 	completion_shells = map[string]func(out io.Writer, boilerPlate string, cmd *cobra.Command) error{
 		"bash": runCompletionBash,
+		"fish": runCompletionFish,
 		"zsh":  runCompletionZsh,
 	}
 )
@@ -138,6 +139,17 @@ func runCompletionBash(out io.Writer, boilerPlate string, kubectl *cobra.Command
 	}
 
 	return kubectl.GenBashCompletion(out)
+}
+
+func runCompletionFish(out io.Writer, boilerPlate string, kubectl *cobra.Command) error {
+	if len(boilerPlate) == 0 {
+		boilerPlate = defaultBoilerPlate
+	}
+	if _, err := out.Write([]byte(boilerPlate)); err != nil {
+		return err
+	}
+
+	return kubectl.GenFishCompletion(out)
 }
 
 func runCompletionZsh(out io.Writer, boilerPlate string, kubectl *cobra.Command) error {
