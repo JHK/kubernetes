@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
 	"k8s.io/kubernetes/cmd/kubeadm/app/phases/certs/pkiutil"

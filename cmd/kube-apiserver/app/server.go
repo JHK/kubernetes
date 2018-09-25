@@ -33,7 +33,7 @@ import (
 
 	"github.com/go-openapi/spec"
 	"github.com/golang/glog"
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	extensionsapiserver "k8s.io/apiextensions-apiserver/pkg/apiserver"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"

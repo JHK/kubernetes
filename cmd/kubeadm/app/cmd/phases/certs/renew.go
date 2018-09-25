@@ -19,7 +19,7 @@ package renew
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	kubeadmscheme "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/scheme"
 	kubeadmapiv1alpha3 "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1alpha3"

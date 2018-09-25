@@ -61,7 +61,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 )
 
 // NewSchedulerCommand creates a *cobra.Command object with default parameters

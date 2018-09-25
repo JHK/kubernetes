@@ -43,8 +43,8 @@ go_library(
         "//staging/src/k8s.io/client-go/dynamic:go_default_library",
         "//staging/src/k8s.io/client-go/tools/cache:go_default_library",
         "//staging/src/k8s.io/client-go/tools/watch:go_default_library",
+        "//vendor/github.com/0robustus1/cobra:go_default_library",
         "//vendor/github.com/renstrom/dedent:go_default_library",
-        "//vendor/github.com/spf13/cobra:go_default_library",
     ],
 )
 

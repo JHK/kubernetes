@@ -22,7 +22,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 )
 
 // Forked from test/e2e/framework because the e2e framework is quite bloated

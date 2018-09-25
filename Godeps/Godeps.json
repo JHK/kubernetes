@@ -1,6 +1,6 @@
 {
 	"ImportPath": "k8s.io/kubernetes",
-	"GoVersion": "go1.10",
+	"GoVersion": "go1.11",
 	"GodepVersion": "v80",
 	"Packages": [
 		"github.com/onsi/ginkgo/ginkgo",
@@ -33,6 +33,11 @@
 			"ImportPath": "cloud.google.com/go/internal",
 			"Comment": "v0.1.0-115-g3b1ae453",
 			"Rev": "3b1ae45394a234c385be014e9a488f2bb6eef821"
+		},
+		{
+			"ImportPath": "github.com/0robustus1/cobra",
+			"Comment": "v0.0.3-14-g7b191ab",
+			"Rev": "7b191aba3320c12829d0260798b98d5caf0dfbb0"
 		},
 		{
 			"ImportPath": "github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute",
@@ -1542,7 +1547,7 @@
 		},
 		{
 			"ImportPath": "github.com/evanphx/json-patch",
-			"Comment": "v3.0.0-34-g36442db",
+			"Comment": "v4.0.0-3-g36442db",
 			"Rev": "36442dbdb585210f8d5a1b45e67aa323c197d5c4"
 		},
 		{

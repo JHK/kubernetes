@@ -18,9 +18,9 @@ go_library(
     ],
     deps = [
         "//pkg/kubectl/util/term:go_default_library",
+        "//vendor/github.com/0robustus1/cobra:go_default_library",
         "//vendor/github.com/MakeNowJust/heredoc:go_default_library",
         "//vendor/github.com/russross/blackfriday:go_default_library",
-        "//vendor/github.com/spf13/cobra:go_default_library",
         "//vendor/github.com/spf13/pflag:go_default_library",
     ],
 )

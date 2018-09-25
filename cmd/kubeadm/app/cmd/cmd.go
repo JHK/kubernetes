@@ -20,7 +20,7 @@ import (
 	"io"
 
 	"github.com/renstrom/dedent"
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 	"github.com/spf13/pflag"
 
 	"k8s.io/kubernetes/cmd/kubeadm/app/cmd/phases"

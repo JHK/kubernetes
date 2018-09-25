@@ -73,7 +73,7 @@ go_test(
         "//staging/src/k8s.io/client-go/scale/fake:go_default_library",
         "//staging/src/k8s.io/client-go/testing:go_default_library",
         "//staging/src/k8s.io/client-go/util/testing:go_default_library",
-        "//vendor/github.com/spf13/cobra:go_default_library",
+        "//vendor/github.com/0robustus1/cobra:go_default_library",
         "//vendor/k8s.io/utils/pointer:go_default_library",
     ],
 )
@@ -166,8 +166,8 @@ go_library(
         "//staging/src/k8s.io/client-go/util/integer:go_default_library",
         "//staging/src/k8s.io/client-go/util/jsonpath:go_default_library",
         "//staging/src/k8s.io/client-go/util/retry:go_default_library",
+        "//vendor/github.com/0robustus1/cobra:go_default_library",
         "//vendor/github.com/golang/glog:go_default_library",
-        "//vendor/github.com/spf13/cobra:go_default_library",
         "//vendor/github.com/spf13/pflag:go_default_library",
         "//vendor/vbom.ml/util/sortorder:go_default_library",
     ],
