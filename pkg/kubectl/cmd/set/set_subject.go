@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	rbacv1 "k8s.io/api/rbac/v1"
 	"k8s.io/apimachinery/pkg/runtime"

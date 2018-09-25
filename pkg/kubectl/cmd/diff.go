@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 
 	"github.com/ghodss/yaml"
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

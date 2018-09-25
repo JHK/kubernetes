@@ -22,7 +22,7 @@ import (
 	"fmt"
 
 	"github.com/ghodss/yaml"
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	apimachineryversion "k8s.io/apimachinery/pkg/version"
 	"k8s.io/cli-runtime/pkg/genericclioptions"

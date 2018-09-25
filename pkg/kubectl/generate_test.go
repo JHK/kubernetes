@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 )
 
 type TestStruct struct {

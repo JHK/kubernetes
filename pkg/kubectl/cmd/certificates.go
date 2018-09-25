@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	certificatesv1beta1 "k8s.io/api/certificates/v1beta1"
 	"k8s.io/apimachinery/pkg/api/errors"

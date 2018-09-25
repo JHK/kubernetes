@@ -23,7 +23,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	"k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/api/meta"

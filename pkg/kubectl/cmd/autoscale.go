@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	autoscalingv1 "k8s.io/api/autoscaling/v1"
 	"k8s.io/apimachinery/pkg/api/meta"

@@ -17,7 +17,7 @@ limitations under the License.
 package rollout
 
 import (
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 	"k8s.io/kubernetes/pkg/kubectl/polymorphichelpers"
 
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"

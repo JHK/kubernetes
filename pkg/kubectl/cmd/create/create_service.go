@@ -17,7 +17,7 @@ limitations under the License.
 package create
 
 import (
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	"k8s.io/api/core/v1"
 	"k8s.io/cli-runtime/pkg/genericclioptions"

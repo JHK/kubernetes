@@ -22,7 +22,7 @@ import (
 	"k8s.io/kubernetes/pkg/kubectl/util/i18n"
 	metricsapi "k8s.io/metrics/pkg/apis/metrics"
 
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 	"k8s.io/cli-runtime/pkg/genericclioptions"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/templates"
 )

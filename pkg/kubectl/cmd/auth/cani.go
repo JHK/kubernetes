@@ -23,7 +23,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/spf13/cobra"
+	"github.com/0robustus1/cobra"
 
 	authorizationv1 "k8s.io/api/authorization/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
